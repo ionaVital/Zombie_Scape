@@ -155,7 +155,7 @@ def draw_menu():
 
 def draw_game_over():
     screen.draw.text("GAME OVER", center=(WIDTH // 2, HEIGHT // 2), fontsize=60, color="red")
-    screen.draw.text("Press ENTER to return to menu", center=(WIDTH // 2, HEIGHT // 2 + 60), fontsize=32, color="white")
+    screen.draw.text("Pressione ENTER para retornar ao menu", center=(WIDTH // 2, HEIGHT // 2 + 60), fontsize=32, color="white")
 
 def check_collision():
     global game_over
