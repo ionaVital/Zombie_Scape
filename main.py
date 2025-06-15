@@ -148,7 +148,7 @@ def draw_menu():
     screen.draw.text("Zombie Scape", center=(WIDTH // 2, 100), fontsize=48, color="white")
     labels = ["COMECAR",
               "Musica: ON" if sounds_enabled else "Musica: OFF",
-              "EXIT"]
+              "SAIR"]
     for rect, label in zip(menu_buttons, labels):
         screen.draw.filled_rect(rect, "green")
         screen.draw.textbox(label, rect, color="white")
