@@ -3,7 +3,7 @@ from pygame import Rect
 import random
 
 WIDTH = 640
-HEIGHT = 640
+HEIGHT = 700
 TITLE = "Zombie Scape"
 
 TILE_SIZE = 64
